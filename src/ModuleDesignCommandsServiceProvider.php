@@ -2,9 +2,9 @@
 
 namespace CreativeCrafts\ModuleDesignCommands;
 
+use CreativeCrafts\ModuleDesignCommands\Commands\ModuleDesignCommandsCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use CreativeCrafts\ModuleDesignCommands\Commands\ModuleDesignCommandsCommand;
 
 class ModuleDesignCommandsServiceProvider extends PackageServiceProvider
 {
