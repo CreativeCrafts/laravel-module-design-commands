@@ -2,6 +2,4 @@
 
 namespace CreativeCrafts\ModuleDesignCommands;
 
-class ModuleDesignCommands
-{
-}
+class ModuleDesignCommands {}

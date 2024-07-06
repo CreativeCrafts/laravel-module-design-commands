@@ -34,8 +34,7 @@
     },
     "autoload": {
         "psr-4": {
-            "CreativeCrafts\\ModuleDesignCommands\\": "src/",
-            "CreativeCrafts\\ModuleDesignCommands\\Database\\Factories\\": "database/factories/"
+            "CreativeCrafts\\ModuleDesignCommands\\": "src/"
         }
     },
     "autoload-dev": {
@@ -73,10 +72,7 @@
         "laravel": {
             "providers": [
                 "CreativeCrafts\\ModuleDesignCommands\\ModuleDesignCommandsServiceProvider"
-            ],
-            "aliases": {
-                "ModuleDesignCommands": "CreativeCrafts\\ModuleDesignCommands\\Facades\\ModuleDesignCommands"
-            }
+            ]
         }
     },
     "minimum-stability": "dev",

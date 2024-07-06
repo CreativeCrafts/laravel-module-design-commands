@@ -2,9 +2,9 @@
 
 namespace CreativeCrafts\ModuleDesignCommands\Tests;
 
+use CreativeCrafts\ModuleDesignCommands\ModuleDesignCommandsServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use CreativeCrafts\ModuleDesignCommands\ModuleDesignCommandsServiceProvider;
 
 class TestCase extends Orchestra
 {

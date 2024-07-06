@@ -4,7 +4,7 @@ namespace CreativeCrafts\ModuleDesignCommands\Commands;
 
 use Illuminate\Console\Command;
 
-class ModuleDesignCommandsCommand extends Command
+class ModuleDesignCommands extends Command
 {
     public $signature = 'laravel-module-design-commands';
 
