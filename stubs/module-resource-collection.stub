@@ -1,0 +1,17 @@
+<?php
+
+declare(strict_types=1);
+
+namespace {{ namespace }};
+
+use Illuminate\Http\Resources\Json\ResourceCollection;
+use Illuminate\Http\Request;
+use Illuminate\Http\Resources\Json\AnonymousResourceCollection;
+
+final class {{ class }} extends ResourceCollection
+{
+    public function toArray(Request $request): AnonymousResourceCollection
+    {
+        return parent::toArray($request);
+    }
+}

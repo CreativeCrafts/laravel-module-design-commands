@@ -1,0 +1,32 @@
+<?php
+
+declare(strict_types=1);
+
+namespace {{ namespace }};
+
+use Illuminate\Support\ServiceProvider;
+
+final class {{ class }} extends ServiceProvider
+{
+    /**
+     * Register services.
+     *
+     * @return void
+     */
+    public function register(): void
+    {
+        $this->app->register(EventServiceProvider::class);
+        $this->app->register(RouteServiceProvider::class);
+    }
+
+    /**
+     * Bootstrap services.
+     *
+     * @return void
+     */
+    public function boot(): void
+    {
+        $this->loadMigrationsFrom(__DIR__.'/../../database/migrations');
+        $this->mergeConfigFrom(__DIR__.'/../../config/config.php', '{{ key }}');
+    }
+}

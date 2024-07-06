@@ -1,0 +1,21 @@
+<?php
+
+declare(strict_types=1);
+
+namespace {{ namespace }};
+
+use Illuminate\Foundation\Support\Providers\EventServiceProvider as BaseEventServiceProvider;
+
+final class {{ class }} extends BaseEventServiceProvider
+{
+    protected $listen = [];
+
+    /**
+     * Bootstrap services.
+     *
+     * @return void
+     */
+    public function boot(): void
+    {
+    }
+}
