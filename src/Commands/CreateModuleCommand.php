@@ -339,7 +339,8 @@ class CreateModuleCommand extends Command
 
     protected function getConfigStub(): string
     {
-        return app()->basePath().'/stubs/module-config.stub';
+        return base_path('stubs/module-config.stub');
+        // return app()->basePath().'/stubs/module-config.stub';
     }
 
     protected function getRouteServiceProviderStub(): string
